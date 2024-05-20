@@ -1,13 +1,35 @@
-# Guru-Llama-3-8B 中文增强预训练基座模型
+---
+language:
+- en
+- zh
+pipeline_tag: text-generation
+tags:
+- meta
+- llama-3
+- llama3中文基座模型
+license: llama3
+---
 
-[Guru-Llama-3-8B](https://modelscope.cn/models/wifibaby4u/Guru-Llama-3-8B)中文增强预训练基座模型，使用多种不同类型的中文语料进行增强预训练。
+# Llama3 中文增强预训练基座模型
 
 ## 项目概述
 
 本项目使用 `LLaMA-Factory` 对 `Llama3-8b` 模型进行了中文增强预训练。
 
-微调对话模型下载：[Guru-Llama-3-8B-Chat](https://modelscope.cn/models/wifibaby4u/Guru-Llama-3-8B-Chat)
+## Models
 
+- Chat models
+  
+  | Name                 | Download                                                                                                                                                            |
+  | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Guru-Llama-3-8B-Chat | • [🤗 Hugging Face](https://huggingface.co/wifibaby4u/Guru-Llama-3-8B-Chat) • [🤖 ModelScope](https://modelscope.cn/models/wifibaby4u/Guru-Llama-3-8B-Chat) |
+
+- Base models
+  
+  | Name                | Download                                                                                                                                                            |
+  | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Guru-Llama-3-8B     | • [🤗 Hugging Face](https://huggingface.co/wifibaby4u/Guru-Llama-3-8B) • [🤖 ModelScope](https://modelscope.cn/models/wifibaby4u/Guru-Llama-3-8B) |
+  
 ## 评测
 
 ### CMMLU
